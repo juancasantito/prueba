@@ -1,4 +1,0 @@
-steps:
-  - name: Test Connection
-    plugin: Shell
-    command: 'drush cache-clear'
