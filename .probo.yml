@@ -1,0 +1,3 @@
+steps:
+- name: Configuration Import
+  command: 'drush configuration import -y ; drush cache reload'
