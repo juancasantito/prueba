@@ -1,0 +1,5 @@
+steps:
+  - name: Test Connection
+    plugin: Shell
+    command: 'echo "Erroneous command'
+    
