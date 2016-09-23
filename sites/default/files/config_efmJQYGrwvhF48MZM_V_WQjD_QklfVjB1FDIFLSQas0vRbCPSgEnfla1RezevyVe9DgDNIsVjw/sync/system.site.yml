@@ -1,0 +1,14 @@
+uuid: 3d0e160e-8d40-4f6d-a762-c02d6dc6d6b2
+name: Prueba
+mail: admin@example.com
+slogan: 'Todo puede salir mal'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
