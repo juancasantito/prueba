@@ -1,0 +1,34 @@
+uuid: c975ea37-2e41-4c6a-b91d-768bcb7b3864
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.video.body
+    - field.field.node.video.field_title
+    - node.type.video
+  module:
+    - text
+    - user
+id: node.video.search_index
+targetEntityType: node
+bundle: video
+mode: search_index
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

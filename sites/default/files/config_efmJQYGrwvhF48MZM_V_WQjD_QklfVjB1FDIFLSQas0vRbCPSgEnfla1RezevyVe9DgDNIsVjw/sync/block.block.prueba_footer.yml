@@ -1,0 +1,26 @@
+uuid: fdb4c636-d5b3-4891-bc17-b7f8b77f8433
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: 5x9PfYuQ31KUQHrauPPqjxhbQ0OeHhNXBlm8uFPKhAw
+id: prueba_footer
+theme: prueba
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
