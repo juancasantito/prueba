@@ -1,0 +1,25 @@
+uuid: 57ff8a29-35f7-4ab6-a7d7-07f2574bad53
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: G5W5B1FVvNDeN3JxXL3D_s4a7NuGxKbxVHEYhpHuBwU
+id: prueba_branding
+theme: prueba
+region: header_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

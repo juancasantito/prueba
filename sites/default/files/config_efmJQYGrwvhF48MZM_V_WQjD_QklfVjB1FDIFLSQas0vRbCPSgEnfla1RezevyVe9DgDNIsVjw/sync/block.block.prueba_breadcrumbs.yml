@@ -1,0 +1,27 @@
+uuid: 11356af0-a37e-472d-a4e2-cff83d7c1123
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: xUwoffj7rEbCyIzP2Y748OyU1LTqjybsuwqMbL9i9pU
+id: prueba_breadcrumbs
+theme: prueba
+region: content_prefix
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

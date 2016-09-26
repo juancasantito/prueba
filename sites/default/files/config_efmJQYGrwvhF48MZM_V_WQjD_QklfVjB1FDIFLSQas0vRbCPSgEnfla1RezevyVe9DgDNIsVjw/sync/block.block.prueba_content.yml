@@ -1,0 +1,22 @@
+uuid: 3febc884-2616-4e6e-934c-cd9412c0bf09
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: Sr783rKARaOnX-nqLoKrzQ5o_-ACQdoZQJUX3RPFhxQ
+id: prueba_content
+theme: prueba
+region: content
+weight: 4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

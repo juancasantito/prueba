@@ -1,0 +1,26 @@
+uuid: 956c2cf6-765c-4d91-b5e7-5c85f923415f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: TvvdXFHq7JAFR-OpKuqGcdszqxopq893iWd1vDxAVjg
+id: prueba_main_menu
+theme: prueba
+region: navbar
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main menu'
+  provider: system
+  label_display: 1
+  level: 1
+  depth: 0
+visibility: {  }

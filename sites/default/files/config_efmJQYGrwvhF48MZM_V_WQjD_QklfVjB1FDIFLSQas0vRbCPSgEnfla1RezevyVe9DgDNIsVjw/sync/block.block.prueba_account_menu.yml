@@ -1,0 +1,26 @@
+uuid: c84c5337-61e2-4c94-b9d5-012b7ed13d10
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: YZVaoaxJUwmzsq4PLbNGP05lb0l5ajrMqTl1G_UAal0
+id: prueba_account_menu
+theme: prueba
+region: leaderboard
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
