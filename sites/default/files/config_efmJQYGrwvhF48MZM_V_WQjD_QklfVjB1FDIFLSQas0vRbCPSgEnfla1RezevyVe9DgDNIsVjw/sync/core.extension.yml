@@ -7,6 +7,7 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
+  ckeditor_media_embed: 0
   color: 0
   comment: 0
   config: 0
@@ -51,5 +52,7 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
+  at_core: 0
+  prueba: 0
 _core:
   default_config_hash: m2GVq11UAOVuNgj8x0t5fMOPujpvQQ_zxLoaly1BMEU
