@@ -1,0 +1,22 @@
+uuid: 1e95f524-397d-4c44-be50-2affa016c4e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - prueba
+_core:
+  default_config_hash: iwYOKkk5HrzuLRVbpUVhtdRR9Vm2FNAGf1sztPlnk3s
+id: prueba_search
+theme: prueba
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

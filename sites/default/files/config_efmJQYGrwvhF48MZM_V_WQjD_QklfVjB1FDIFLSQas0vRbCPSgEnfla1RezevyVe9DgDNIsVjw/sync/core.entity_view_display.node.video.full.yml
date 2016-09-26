@@ -1,0 +1,32 @@
+uuid: 19fea04d-efed-4be5-8996-64a8d4a9d66f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.video.body
+    - field.field.node.video.field_title
+    - node.type.video
+  module:
+    - text
+    - user
+id: node.video.full
+targetEntityType: node
+bundle: video
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_title:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden: {  }

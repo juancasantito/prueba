@@ -1,0 +1,22 @@
+uuid: 083cf3af-524f-47df-a4bb-dabc1d3e8ccf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: E20EVC7UlBnu48HUNOdHh0BZ9lJSqdXbclP11Jz4diI
+id: prueba_messages
+theme: prueba
+region: highlighted
+weight: -100
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

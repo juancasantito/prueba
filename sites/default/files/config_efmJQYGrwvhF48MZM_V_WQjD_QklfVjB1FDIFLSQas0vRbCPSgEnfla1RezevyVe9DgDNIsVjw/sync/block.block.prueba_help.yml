@@ -1,0 +1,22 @@
+uuid: 36fd4d58-458a-4930-bb7d-2dab851c8ace
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - prueba
+_core:
+  default_config_hash: BOa1mzTRXKeebEbIrtYqys7Vai81Md9OwzLZEyq0GxU
+id: prueba_help
+theme: prueba
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

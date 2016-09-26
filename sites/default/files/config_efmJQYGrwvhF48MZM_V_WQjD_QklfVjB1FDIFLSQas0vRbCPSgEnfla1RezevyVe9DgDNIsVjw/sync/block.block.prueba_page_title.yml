@@ -1,0 +1,27 @@
+uuid: 32ec2639-89f9-4f59-a909-5b4c1ba704d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prueba
+_core:
+  default_config_hash: E7gmdhKy2IwxjR3aYJqfx-PaBTgBjogEHmhbxn6fwiM
+id: prueba_page_title
+theme: prueba
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/*\r\n/user/*\r\n<front>"
+    negate: true
+    context_mapping: {  }
